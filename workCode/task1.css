@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.panel{
+    margin: 30px;
+    width: 645px;
+    height: 330px;
+    border: 1px solid #CCC;
+}
+
+.title{
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    line-height: 35px;
+    background-color: #E6E6E6;
+}
+
+
+.content{
+    width: 100%;
+    height: 280px;
+    margin-left:0px;
+    padding-top: 0px;
+}
+
+.content .showChart{
+    width: 65%;
+    /*border-right: 1px solid red;*/
+    height: 100%;
+    float: left;
+}
+
+.content .showChart p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.content .timeSelection{
+    width: 35%
+    height: 100%;
+}
+
+.content .timeSelection table{
+    padding: 20px;
+}
+
+#pieChart{
+      margin-top: -35px;
+       margin-left: 130px;
+       /*border:1px solid blue*/
+       font-size:12px;
+}
+
+.lastFiveData{
+    /*border: 1px solid #000;*/
+    width: 280px;
+    height: 40px;
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+}
+
+.lastFiveData .rectTitle{
+    text-align: center;
+    position: relative;
+    left: -30px;
+}
+
+.lastFiveRect{
+    /*border: 1px solid red;*/
+    width: 300px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+}
+.rateRect{
+    width: 55px;
+    margin-left: 6px;
+    margin-top:4px;
+    height: 12px;
+    line-height: 12px;
+    /*border: 1px solid blue;*/
+    float: left;
+    background-color: #C2CEF2;
+    text-align: center;
+    font-size: 12px;
+}

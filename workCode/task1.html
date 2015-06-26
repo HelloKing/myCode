@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pieChart</title>
+    <link rel="stylesheet" href="task1.css" type="text/css">
+    <script type="text/javascript" src=".././lib/jquery.min.js"></script>
+    <script type="text/javascript" src=".././lib/jquery.jqplot.min.js"></script>
+    <link rel="stylesheet" type="text/css" href=".././lib/jquery.jqplot.min.css">
+    <script type="text/javascript" src=".././lib/jqplot.pieRenderer.min.js"></script>
+    <!-- <script type="text/javascript" src="./lib/html5.js"></script> -->
+    <!--[if IE]><script type="text/javascript" src="excanvas.compiled.js"></script><![endif]-->
+</head>
+<body>
+    <div class="panel">
+        <div class="title">
+            &nbsp;各时段机动车占道数量（日均量）排行    Top10
+        </div>
+        <div class="content">
+            <div class="showChart">
+                      <p>时间段:
+                        <select>
+                            <option>一小时</option>
+                        </select>
+                    </p>
+                <div id="pieChart" style="width:70%;height:90%;">
+                </div>
+                <div class="lastFiveData">
+                    <div class="rectTitle">6~10</div>
+                    <div id="rateect" class="lastFiveRect">
+                        <div class="rateRect"></div>
+                        <div class="rateRect"></div>
+                        <div class="rateRect"></div>
+                        <div class="rateRect"></div>
+                        <div class="rateRect"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeSelection">
+                <table>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                    <tr>
+                        <td>1. 09:00-10:00 (400)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="task1.js"></script>
+
+</body>
+</html>
